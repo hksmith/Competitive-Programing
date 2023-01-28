@@ -32,7 +32,7 @@ def insertionSort1(n, arr):
             break
         n -= 1
 if __name__ == '__main__':
-    n = int(input().strip())
+    n = int(input().strip() )
 
     arr = list(map(int, input().rstrip().split()))
 
