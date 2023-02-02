@@ -4,7 +4,7 @@ class Solution:
         count = 0
         for i in nums:
             for j in nums:
-                if(i > j):
+                if i > j:
                     count += 1
             a.append(count)
             count = 0
